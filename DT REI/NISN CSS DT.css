@@ -1,0 +1,65 @@
+.nisncsswoo h2 {
+  text-align: center;
+  font-family: Sans-Serif;
+  color: #004B95;
+}
+.nisncsswoo label {
+  font-family: Sans-Serif;
+  font-weight: 700;
+  color: #004B95;
+  margin-bottom: 10px;
+}
+
+.nisncsswoo button {
+	text-align: center;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background: linear-gradient(0deg, #ffffff 0%, #0f8cf6);
+ cursor: url('tigercursor.png'), auto;
+}
+
+.nisncsswoo img {
+display: block;
+  width: 75px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.nisncsswoo {
+ background-color: #d8edfd;
+ width: 90%;
+ padding: 30px;
+ max-width: 350px;
+ border: 0px;
+ border-color: #d8edfd;
+ border-radius: 10px;
+ box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.2) ;
+ 
+}
+
+.nisncsswoo input {
+  width:92.5%;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+}
+
+.nisncsswoo button {
+ width: 100%;
+ margin-top: 20px;
+ padding: 10px 75px;
+ text-align: center;
+ background-color: #007bff; 
+ color: white;
+ border: none;
+ border-radius: 10px; 
+ font-size: 16px;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 0px;
+}

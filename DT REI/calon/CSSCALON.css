@@ -1,0 +1,130 @@
+body {
+ justify-content: center;
+ align-items: center;
+ background: linear-gradient(0deg, #ffffff 0%, #0f8cf6);
+cursor: url('tigercursor.png'), auto;
+
+}
+
+header {
+  text-align:center; 
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+header img {
+  width: 75px;
+}
+
+.card-Nish {
+  justify-content: center;
+  background-color: rgba(0,0,0,0.1);
+  width: 200px;
+  box-shadow: 4px 7px 4px 7px rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin: 25px;
+}
+
+.card-Nish img {
+  width:90%; 
+  aspect-ratio: 1 / 1; 
+  object-fit:cover;
+  border-radius:50%;
+  border: solid;
+  color: white;
+  display:block;
+  margin: auto;
+}
+
+.card-Mika {
+  justify-content: center;
+  background-color: rgba(0,0,0,0.1);
+  width: 200px;
+  box-shadow: 4px 7px 4px 7px rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin: 25px;
+}
+
+.card-Mika img {
+  width:90%; 
+  aspect-ratio: 1 / 1; 
+  object-fit:cover;
+  border-radius: 50%;
+  display:block;
+  margin: auto;
+  border: solid;
+  color: white;
+}
+
+.card-Rei {
+  justify-content: center;
+  background-color: rgba(0,0,0,0.1);
+  width: 200px;
+  box-shadow: 4px 7px 4px 7px rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin: 25px;
+}
+
+.card-Rei img {
+  width:90%; 
+  aspect-ratio: 1 / 1; 
+  object-fit:cover;
+  border-radius: 50%;
+  display:block;
+  margin: auto;
+  border: solid;
+  color: white;
+}
+
+.candidatesboxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin: auto;
+  
+}
+
+.card-Nish:hover {
+  transform: scale(1.05);
+}
+
+.card-Mika:hover {
+  transform: scale(1.05);
+}
+
+.card-Rei:hover {
+  transform: scale(1.05);
+}
+
+.pilih_buttons button {
+  background-color: #67bed9;
+  float: left;
+  display: flex;
+  flex-wrap: center;
+  padding: 10px;
+  border-radius: 100px 100px 100px 100px;
+-webkit-border-radius: 100px 100px 100px 100px;
+-moz-border-radius: 100px 100px 100px 100px;
+  margin: 20px;
+  border: none;
+  text-align: center;
+}
+
+.buttonsss{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.pilih_buttons button:hover{
+  background-color: white;
+
+}
